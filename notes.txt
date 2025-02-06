@@ -284,6 +284,16 @@ NaN - Not a Number:
     if (age >= 18) {
         console.log('You may enter the pub)
     }
+
+- Else If Statement:
+
+    let dayOfWeek = 'Monday';
+
+    if (dayOfWeek === 'Monday') {
+        console.log('eeek Monday')
+    } else if (dayOfWeek === 'Saturday') {
+        console.log('Thank god i'ts Saturday')
+    }
     
 - Else Statements: (if not the first outcome do this):
     

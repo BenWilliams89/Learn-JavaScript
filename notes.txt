@@ -222,7 +222,63 @@ NaN - Not a Number:
 
         - Math.random() * 10 = gives a number between 1 and 10
         
-        
+
+- Decision Making Section:
+
+    - Boolean Logic & Conditional Statements - Different outcomes or paths available to you based on logic, such as: logged in vs logged out experience
+
+    - Comparisions:
+
+        - > = Greater Than
+        - < = Less Than
+        - >= = Greater than or equal to
+        - <= = Less than or equal to
+
+        - == = equality
+        - != = Not equal
+        - === = Strict equality
+        - !== = Not strict equality
+
+        - 1 > 3 = false
+        - 1 < 3 = true
+        - 2 <= 10 = true
+        - 2 >= 10 = false
+
+        - == (double equals):
+            - doesn't care if they are the same type - helps makes things the same:
+            - 1 == 1 = true
+            - 1 == '1' = true
+            - 1 != 2 = true
+            - 1 != '1' = false
+
+        - === (triple equals)
+            - does care about type and value and sets a hard rule
+            - 1 === '1' = false
+            - 1 !== '1' = true
+
+- The Console:
+
+    - console.log('Ben') = pints Ben to the console
+    - console.warn('Warning) = Shows a warning message in the console
+    - console.error('dddd') = prints dddd as an error message
+
+- Alerts:
+
+    - alerts('hello world') = this will show up as an alert on the webpage
+
+- Prompt:
+
+    - prompt('Please enter a number')
+    - This works similar to an alert but there is an input box for the user to add some information. (add a number)
+    - The user response is then printed to the terminal and can be saved by assigning it to a variable
+        - let userInput = 31 (the number the user chose to add)
+
+- ParseInt(userInput)
+    - 31
+    - ParseInt(userInput) + 1 = return 32
+
+
+
 
          
 

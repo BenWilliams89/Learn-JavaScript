@@ -93,6 +93,15 @@ NaN - Not a Number:
 
 
 - Booleans (True or False) (Yes or No):
+        - let isGameOver = false
+        - let isLoggedIn = true
+
+
+- Naming conventions for let & const variables:
+
+        - camelcase = currentDate = each new word has an uppercase letter
+        - no spaces allowed
+        - be specific when naming variables
 
 
 

@@ -305,6 +305,23 @@ NaN - Not a Number:
     }
 
 
+- If, Else if and Else with a prompt:
+
+const dayOfWeek = prompt('ENTER A DAY').toLowerCase()
+
+if (dayOfWeek === 'monday') {
+    console.log("AHH MONDAYS SUCK!)
+} else if (dayOfWeek === 'friday') {
+    console.log('this week is getting better')
+} else {
+    console.log('I don't know what day it is!')
+}
+
+
+- Nesting Conditionals:
+
+
+
 
 
 

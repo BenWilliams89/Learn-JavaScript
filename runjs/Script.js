@@ -42,3 +42,17 @@ if (month === 'January') {
 } else {
     console.log("it's not Jan or March")
 } 
+
+// Nested Conditionals
+
+let password = prompt('please eneter a new passwors');
+
+if (password.length >= 6) {
+    if (password.indexOf(' ') === -1){
+        console.log('Password passes due to no spaces and correct length')
+} else {
+    console.log('Password can not have a space')
+}
+} else {
+    console.log('password to short')
+}

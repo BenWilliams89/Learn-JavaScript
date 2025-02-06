@@ -1,6 +1,7 @@
 A Guide to Javascript:
 
 // = comment
+Command K = clear console
 
 - Primitive Types - Basic building blocks
     - Strings
@@ -19,7 +20,7 @@ A Guide to Javascript:
 NaN - Not a Number:
 
     - 0/0 = NaN
-    - 1 + Nan = NaN
+    - 1 + NaN = NaN
 
     - typeof 4 = number
 
@@ -36,4 +37,64 @@ NaN - Not a Number:
     - (numbers in brackets come first)
     - * comes first if no brackets
 
+
+- Incremental Operators:
+
+       - Score = 10
+       - Score += 5
+       - Score = 15
+       - Score *= 2
+       - Score = 30
+
+       - let numLives = 9
+       - numLives = -= 8
+       - or numLivess-- = 8
+       - numLives++ = 9
+
+       i++  vs ++i:
+
+       - let i = 0
+       - i++ = 0
+       - i = 1
+
+       let i = 5
+       result = i++
+       result = 5
+
+       let i = 0
+       ++i = 1
+       i = 1
+
+       let i = 5
+       let result = ++i
+       result = 6
+
+- Variables - (Names for data/values):
+
+    let = can change the value:
+
+        - let someName = values
+        - let year = 1985 (variable called year with a value of 1985)
+
+        - let numHens = 5;
+        - let numRoosters = 1
+
+        numHens + numroosters = 6
+        numHens + 1 = 6
+
+        - let totalChickens = numHens + numRoosters
+        total chickens = 6
+
+
+    const = Constant number or value - You can not change unless it is a let or variable
+
+        - Use const for things that don't change
+        - const myName = Ben
+
+
+- Booleans (True or False) (Yes or No):
+
+
+
+        
 

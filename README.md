@@ -1,1 +1,5 @@
 # Learn-JavaScript
+
+Tips & Tricks:
+
+-

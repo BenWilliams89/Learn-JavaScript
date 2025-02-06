@@ -1,0 +1,39 @@
+A Guide to Javascript:
+
+// = comment
+
+- Primitive Types - Basic building blocks
+    - Strings
+    - Numbers
+    - Boolean
+    - Null
+    - Undefined
+
+- Numbers:
+
+    - Positive Numbers
+    - Negative Numbers
+    - Whole Numbers (integers)
+    - Decimal Numbers
+
+NaN - Not a Number:
+
+    - 0/0 = NaN
+    - 1 + Nan = NaN
+
+    - typeof 4 = number
+
+- Math Operators:
+
+    - * = Times (4 * 3)
+    - / = Divide (4 / 2)
+    - % = Leftover amount (19 % 4) = 3 - Good to work out if number is even or odd
+    - + = Add
+    - - = Subtract
+
+    Order of operations:
+
+    - (numbers in brackets come first)
+    - * comes first if no brackets
+
+

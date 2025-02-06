@@ -179,7 +179,26 @@ NaN - Not a Number:
 
         - let funMsg = "haha that is so funny"
         - funMsg.replace('haha', 'lolololol') = 'lolololol that is so funny'
+
+
+- String Template Literals `${}:
+
+        - let product = 'apple'
+        - let price = £2
+        - let qty = 5
+
+       -  ` You bought ${qty} ${product}, total is ${price * qty}` 
+       -  You bought 5 apple, total is £10
          
+- Null & Undefined:
+
+        - Null = must be assigned
+        - Undefined = can be blank
+
+        - let x =  Null
+        - let y = 
+        - let y = undefined
+
          
 
 

@@ -278,6 +278,25 @@ NaN - Not a Number:
     - ParseInt(userInput) + 1 = return 32
 
 
+- If Statements: (only run if the answer if true)
+
+    let age = 17
+    if (age >= 18) {
+        console.log('You may enter the pub)
+    }
+    
+- Else Statements: (if not the first outcome do this):
+    
+     let age = 17
+    if (age >= 18) {
+        console.log('You may enter the pub)
+    } else {
+        console.log('Go home child')
+    }
+
+
+
+
 
 
          

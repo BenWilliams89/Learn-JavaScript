@@ -199,6 +199,31 @@ NaN - Not a Number:
         - let y = 
         - let y = undefined
 
+
+- Math Object:
+
+    - rounding numbers up and down etc
+        
+        - Math.PI = 3.14
+        - Math.floor(23.9) = 23
+        - Math.ceiling (34.1) = 35
+        - Math.round (22.2) = 22
+
+        - Random Numbers 
+        - Math.random() = prints with decimals
+
+        - const step1 = Math.random() = 0.595444
+        - const step2 = step1 * 10 = 0.5944
+        - const step3 = Math.floor(step2) = 5
+        - const step4 = step3 + 1 = 6
+
+        - the above can be written as:
+        - Math.floor(Math.random() * 10)
+
+        - Math.random() * 10 = gives a number between 1 and 10
+        
+        
+
          
 
 

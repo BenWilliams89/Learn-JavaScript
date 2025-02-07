@@ -56,3 +56,14 @@ if (password.length >= 6) {
 } else {
     console.log('password to short')
 }
+
+// Logocal && (And) operator
+
+const mystery = Peterparker7
+
+// This means mystery must start with a capital P, be over 5 characters & include the number 7
+
+if(mystery[0] === 'P' && mystery.length > 5 && mystery.indexOf('7') !== -1){ 
+    console.log("YOU GOT IT!!!");
+}
+

@@ -318,7 +318,74 @@ if (dayOfWeek === 'monday') {
 }
 
 
-- Nesting Conditionals:
+- Truthy & Falsy:
+
+    - Falsy values:
+        - Null
+        - Undefined
+        - 0
+        - ' ' or " "
+        - false
+
+    - Everything else is truthy or true
+
+        let userInput = prompt('Enter Something')
+
+        if(userInput){
+            conslole.log('Truthy')
+        } else {
+            console.log('Falsy)
+        }
+
+
+- Logical Operators:
+    - &&, ||, !
+    - And, Or, Not
+    - && runs before ||
+
+    - true && true = true
+    - true && false = false
+    - false && false = false
+
+    const password = prompt('Enter password)
+
+    if (password.length >= 6 && password.indexOf(' ') === -1){
+        console.log('Password Accepted')
+    } else {
+        console.log('Password incorrect - no spaces & must be over 6 charcaters long')
+    }
+
+
+    - || (Or) // Called Pipes
+    - Only one needs to be true
+        - 1 !== 1 || 10 === 10 = true
+        - 0 || undefined = false
+
+        const age = 90
+        if (age >= 0 && age < 5 || >= 65) {
+            console.log('Free Enry)
+        } else {
+            console.log('Entry fee is $10')
+        }
+
+    
+    - ! (Not)
+        - !null = true
+        - ! (0 === 0) = false
+        - ! (3 < 4) = false
+
+         let firstName = prompt('Enter name')   
+
+         if (!firstName){
+            console.log('Please enter your first name")
+         }  
+
+
+         const age = 50
+        if (!(age >= 0 && age < 5 || >= 65)) {
+            console.log('You are not less then 5 or older then 65')
+        }
+
 
 
 

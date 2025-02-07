@@ -387,6 +387,14 @@ if (dayOfWeek === 'monday') {
         }
 
 
+- Switch Statements:
+
+    - Checking one value and check multiple outputs until correct
+    - Case is another word for option so case 1 is this case 2 is that etc
+    - Break means to stop when the match is found - think of brake like a car brake
+    - Default is similar to an else statement 
+
+
 
 
 

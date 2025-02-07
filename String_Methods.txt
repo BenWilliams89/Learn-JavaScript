@@ -1,0 +1,117 @@
+- Strings (text):
+
+        - must be wrapped in quotes 'text goes here' or "text goes here"
+        - let favAnimal = 'Dog'
+        - let favNum = '31' - a number in quotes is a string and not a number
+        
+- String Indexing:
+
+        - C H I C K E N
+        - 0 1 2 3 4 5 6
+
+        - Each character has a corresponding number/index (a positional number)
+
+        - let animal = 'Hippo'
+        - animal[0] = H
+        - animal[1] = i
+        - animal[2] = p
+        - animal[3] = p
+        - animal[4] = 0
+        - animal[12] = undefined
+
+        animal.length = 5 = the length of the string
+
+        let phone = '+447369881402' 
+        phone[0] = +
+
+- Concatination (adding two strings together):
+
+        - 'lol' + 'lol' = 'lollol'
+        - firstName + '' + lastName = the "" creates a space
+
+        - 1 + 'hi' = '1hi' = makes both a string
+
+- String Methods (built in actions):
+
+        - Actions from the dot notation
+        - thing.method()
+        - let msg = 'Hello Ben'
+        - msg.toUpperCase()
+        - result = 'HELLO BEN'
+
+        - let angryMsg = msg.toUpperCase()
+        - angryMsg = 'HELLO BEN'
+        - msg = 'Hello Ben'
+
+        - .Trim = remove spaces
+        - let userInput = '  Hello there Ben   '
+        - userInput.trim() = 'Hello there Ben'     
+
+        - let greeting = "    hi    "
+        - greeting.trim().toUpperCase() = "HI"
+
+- Arguments (Arguments go between the () ):
+        
+        - Arguments can be thought of as inputs that we pass into the parentheses.
+    
+    - .indexOf can be used to see if a string contains something
+
+        - let tvShow = 'catdog';
+        - tvShow.indexOf('cat') = 0 as cat is at the Start
+        - tvShow.indexOf('dog') = 3 as dog is the 3rd index
+        - tv.show.indexOf('z') = -1 as there is no z
+
+    - .slice takes a part of the string by adding in the index number you wish to start at & if required end at:
+
+        - let funMsg = "haha that is so funny"
+        - funMsg.slice(5) = that is so funny
+        - funMsg.slice(5, 9) = 'that'
+        - the 5 & 9 are a starting and end index that says start at index 5 and end at index 9 which returns 'that'
+        - funMsg.slice(-1) = y - this is the length of the string then minus 1 so the last string index is y
+
+    - .replace - replaces a string with another string
+
+        - let funMsg = "haha that is so funny"
+        - funMsg.replace('haha', 'lolololol') = 'lolololol that is so funny'
+
+
+- String Template Literals `${}:
+
+        - let product = 'apple'
+        - let price = £2
+        - let qty = 5
+
+       -  ` You bought ${qty} ${product}, total is ${price * qty}` 
+       -  You bought 5 apple, total is £10
+         
+- Null & Undefined:
+
+        - Null = must be assigned
+        - Undefined = can be blank
+
+        - let x =  Null
+        - let y = 
+        - let y = undefined
+
+
+- Math Object:
+
+    - rounding numbers up and down etc
+        
+        - Math.PI = 3.14
+        - Math.floor(23.9) = 23
+        - Math.ceiling (34.1) = 35
+        - Math.round (22.2) = 22
+
+        - Random Numbers 
+        - Math.random() = prints with decimals
+
+        - const step1 = Math.random() = 0.595444
+        - const step2 = step1 * 10 = 0.5944
+        - const step3 = Math.floor(step2) = 5
+        - const step4 = step3 + 1 = 6
+
+        - the above can be written as:
+        - Math.floor(Math.random() * 10)
+
+        - Math.random() * 10 = gives a number between 1 and 10

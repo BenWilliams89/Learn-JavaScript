@@ -19,3 +19,14 @@ Array Notes:
     - Pop = remove from the end
     - Shift = remove from the start
     - Unshift = Add to start 
+
+- More Advanced Array Methods:
+
+    - concat = merge Arrays
+    - includes = look for a value
+    - indexOf = similar to a string
+    - join = creates a string from an Array
+    - reverse = reverses an Array
+    - slice = copies a portion or section of an Array
+    - splice = removes or replaces elements (kind of updates but updates can be done via indexing = line[0] = 'Dave')
+    - sort = sorts an Array

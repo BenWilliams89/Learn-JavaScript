@@ -54,5 +54,12 @@ barbell.pop()
 console.log(barbell)
 
 // Add & Remove from the start - Shift & Unshift
-
-
+let line = ['Tom', 'Ben', 'Emily', 'Darren', 'Nick']
+console.log(line)
+let lost = line.pop()
+console.log(lost)
+console.log(line)
+line.shift()
+console.log(line)
+line.unshift('Clive')
+console.log(line)

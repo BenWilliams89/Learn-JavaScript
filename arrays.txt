@@ -6,3 +6,11 @@ Array Notes:
     - Songs in a playlist etc
 
 - Ordered collection of information/values
+
+- Arrays are indexed
+    - [Doc, Dopey, Bashful, Grumpy, Sneezy, Sleepy, Happy]
+    -   0,    1       2       3       4       5       6
+
+    - Each element has a corresponding index that starts at 0
+
+

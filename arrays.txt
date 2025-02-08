@@ -1,0 +1,8 @@
+Array Notes:
+
+- Connect or group data together
+    - list of comments of an Instagram post
+    - Collection of levels in a game
+    - Songs in a playlist etc
+
+- Ordered collection of information/values

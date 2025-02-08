@@ -16,3 +16,43 @@ colours[0] = 'red'
 console.log(colours)
 colours[2] = 'yellow'
 console.log(colours)
+colours[1] = 1
+console.log(colours)
+
+// Adding to an existing array
+
+let beatles = ['John', 'Paul', 'George']
+console.log(beatles)
+beatles[3] = 'Ringo'
+console.log(beatles)
+
+// Array methods (add, remove items to a string etc)
+
+let movieLine = ['tom', 'Ben']
+movieLine.push('Emily')
+// Add
+console.log(movieLine)
+// Update
+movieLine[0] = 'Tom'
+console.log(movieLine)
+// Remove
+movieLine.pop()
+console.log(movieLine)
+// Add removed result to a variable
+let person = movieLine.pop()
+console.log(person)
+
+// Add & Remove to the end example
+
+let barbell = []
+barbell.push(45)
+barbell.push(25)
+barbell.push(35)
+barbell.push(10)
+console.log(barbell)
+barbell.pop()
+console.log(barbell)
+
+// Add & Remove from the start - Shift & Unshift
+
+

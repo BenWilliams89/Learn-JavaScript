@@ -13,4 +13,9 @@ Array Notes:
 
     - Each element has a corresponding index that starts at 0
 
+- Array Methods:
 
+    - Push = add to the ned of the Array
+    - Pop = remove from the end
+    - Shift = remove from the start
+    - Unshift = Add to start 

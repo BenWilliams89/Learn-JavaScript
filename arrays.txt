@@ -61,3 +61,8 @@ Array Notes:
             - best to use sort with a function
 
 
+
+- Multi-dimenitional arrays (nested arrays):
+
+    - Store arrays inside arrays
+

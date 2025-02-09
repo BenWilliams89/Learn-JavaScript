@@ -121,4 +121,19 @@ let nums = [ 1, 2 ,3]
 numsCopy = nums
 console.log(numsCopy)
 
+const noom = [2, 4, 6]
+noom.push(8)
+console.log(noom)
 
+
+// Nested arrays
+
+const board = [
+    ['0', null, 'X'], // index 0
+    [null, 'X', 0], // index 1
+    ['X', 0, null] // index 2
+]
+console.log(board)
+
+console.log(board[1]) // this calls index 1
+console.log(board[1][1]) // this calls index 1 and the index 1 of that array

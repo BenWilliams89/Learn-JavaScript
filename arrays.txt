@@ -30,3 +30,31 @@ Array Notes:
     - slice = copies a portion or section of an Array
     - splice = removes or replaces elements (kind of updates but updates can be done via indexing = line[0] = 'Dave')
     - sort = sorts an Array
+
+        - concat example
+            - arrayname.concat(secondarrayname)
+
+        - includes example
+            - cats.includes('kitty')
+            - This is case sensitive
+
+        - indexOf example
+            - console.log(cats.indexOf('kitty))
+
+        - reverse example
+            - console.log(dogs.reverse())
+
+        - slice example
+            - let names = ['Ben', 'Emily', 'Katy', 'Sam', 'Derrick', 'David', 'Kay']
+            - console.log(names.slice(3))
+            - console.log(names.slice(3, 6))
+            - console.log(names.slice(-3, 6))
+
+        
+        - Splice takes three values:
+            - .splice(start, delete, insert) = names.splice(1, 0, 'Elaine') = adds elaine after Emily
+        
+
+        - Sort - sorts an array
+            - On it's own sort is not the best
+            - best to use sort with a function

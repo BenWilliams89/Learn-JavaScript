@@ -63,3 +63,56 @@ line.shift()
 console.log(line)
 line.unshift('Clive')
 console.log(line)
+
+// Merge / concat an array
+
+let cats = ['blue', 'kitty']
+let dogs = ['rex', 'rusty']
+console.log(cats.concat(dogs))
+console.log(dogs.concat(cats))
+
+// Includes - does the array include " "
+console.log(cats.includes('blue'))
+console.log(dogs.includes('ben'))
+
+// indexOf
+
+cats.indexOf('kitty')
+console.log(cats.indexOf('kitty'))
+
+// reverse
+
+console.log(dogs.reverse())
+
+// Slice - get a portition/slice/section of an array
+
+let names = ['Ben', 'Emily', 'Katy', 'Sam', 'Derrick', 'David', 'Kay']
+console.log(names.slice(3))
+console.log(names.slice(3, 6))
+console.log(names.slice(-3, 6))
+let couple =names.slice(0,2)
+console.log(couple)
+
+// Splice - change the contents of an array by removing or replacing elements
+// splice takes three values [the starting point, how many to delete, insert/add]
+
+let coolers = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+console.log(coolers.splice(5, 1))
+console.log(coolers)
+
+names.splice(2,2)
+console.log(names)
+
+coolers.splice(1,0,'red-orange')
+console.log(coolers)
+
+coolers.splice(5, 0, 'forrest-green')
+console.log(coolers)
+
+// Sort - sort an array - default converts everything to strings
+
+let scores = [1, 70, 100, 2500, 9, -12, 0, 34]
+console.log(scores.sort()) // this simply takes the first number in the number and sorts
+
+
+

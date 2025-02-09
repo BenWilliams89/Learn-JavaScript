@@ -63,3 +63,70 @@ let add = fullAddress = restaurant.address + ", " + restaurant.city + ", " + res
 console.log(add)
 let full = restaurant["address"] + ", " + restaurant["city"] + ", " + restaurant["state"] + " " + restaurant["zipcode"];
 console.log(full)
+
+// Adding or updating information
+
+let midterms = {
+    daniel: 96,
+    tom: 78,
+}
+console.log(midterms)
+console.log(midterms.daniel)
+midterms.daniel = 88
+console.log(midterms.daniel)
+midterms.ezra = 'B+'
+midterms.antonio = 'A'
+console.log(midterms)
+
+
+// Nested Array
+
+const shoppingCart = [ {
+    product: 'jeans',
+    price: 7.99,
+    quantity: 1
+},
+{
+    product: 'tshirt',
+    price: 5.99,
+    quantity: 2
+},
+{
+    product: 'watch',
+    price: 9.99,
+    quantity: 1
+}]
+console.log(shoppingCart)
+
+
+const comments = [
+    {
+        username: 'Benoo',
+        text: 'lol',
+        votes: 31
+    },
+    {
+        username: 'Emily',
+        text: 'Yaaaas',
+        votes: 32
+    }
+]
+console.log(comments[1])
+console.log(comments[1].text)
+
+
+
+// Nested Objects
+
+const student = {
+    firstName: 'Ben',
+    lastName: 'Williams',
+    strengths: ['tennis', 'coding'],
+    exams: {
+        midterm: 50,
+        final: 75
+    }
+}
+console.log(student.strengths)
+console.log(student.exams)
+console.log(student.exams.final)

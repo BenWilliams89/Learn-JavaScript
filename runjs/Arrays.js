@@ -115,4 +115,10 @@ let scores = [1, 70, 100, 2500, 9, -12, 0, 34]
 console.log(scores.sort()) // this simply takes the first number in the number and sorts
 
 
+// Reference types - Two arrays aren't the same but you can create two variables that are the same
+
+let nums = [ 1, 2 ,3]
+numsCopy = nums
+console.log(numsCopy)
+
 

@@ -34,17 +34,17 @@ Array Notes:
         - concat example
             - arrayname.concat(secondarrayname)
 
-        - includes example
+        - Includes example:
             - cats.includes('kitty')
             - This is case sensitive
 
-        - indexOf example
+        - IndexOf example:
             - console.log(cats.indexOf('kitty))
 
-        - reverse example
+        - Reverse example:
             - console.log(dogs.reverse())
 
-        - slice example
+        - Slice example:
             - let names = ['Ben', 'Emily', 'Katy', 'Sam', 'Derrick', 'David', 'Kay']
             - console.log(names.slice(3))
             - console.log(names.slice(3, 6))
@@ -52,9 +52,12 @@ Array Notes:
 
         
         - Splice takes three values:
-            - .splice(start, delete, insert) = names.splice(1, 0, 'Elaine') = adds elaine after Emily
+            - .splice(start, delete, insert) 
+            - names.splice(1, 0, 'Elaine') = adds elaine after Emily
         
 
-        - Sort - sorts an array
+        - Sort - sorts an array:
             - On it's own sort is not the best
             - best to use sort with a function
+
+

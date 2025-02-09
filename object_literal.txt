@@ -1,0 +1,6 @@
+- Object Literal Notes:
+
+    - Objects - data structure
+    - Key: Value; = pair
+        - age: 35;
+        - city: 'Bristol';

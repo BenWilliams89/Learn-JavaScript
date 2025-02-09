@@ -137,3 +137,17 @@ console.log(board)
 
 console.log(board[1]) // this calls index 1
 console.log(board[1][1]) // this calls index 1 and the index 1 of that array
+
+// Example of changing a filed/value in a nested array:
+
+const airplaneSeats = [
+    ['Ruth', 'Anthony', 'Stevie'],
+    ['Amelia', 'Pedro', 'Maya'],
+    ['Xavier', 'Ananya', 'Luis'],
+    ['Luke', null, 'Deniz'],
+    ['Rin', 'Sakura', 'Francisco']
+];
+
+
+airplaneSeats[3][1] = 'Hugo'
+console.log(airplaneSeats)

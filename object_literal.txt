@@ -2,5 +2,12 @@
 
     - Objects - data structure
     - Key: Value; = pair
-        - age: 35;
-        - city: 'Bristol';
+        - age: 35,
+        - city: 'Bristol',
+        - isAvlive: true,
+
+- The dot notation only works when the key is a string
+    - console.log(years.1989) - returns an error
+    - console.log(years['1989']) - this code works and will run
+
+    

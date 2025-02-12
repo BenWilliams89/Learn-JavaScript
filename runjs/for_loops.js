@@ -55,4 +55,20 @@ for (let m = 10; m <= 1000; m *= 10) {
     
 }
 
-// 
+// Looping Over Arrays
+
+// To loop over an array, start at index 0 and continue looping until the last index
+
+const animals = ['lions', 'tigers', 'bears']
+
+for (let i = 0; i < animals.length; i++) {
+        console.log(i,animals[i])
+    }
+
+// Return an array as Uppercase
+
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"]; 
+    
+for (let i = 0; i < people.length; i++){
+        console.log(people[i].toUpperCase());
+    }

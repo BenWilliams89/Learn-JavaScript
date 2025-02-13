@@ -1,4 +1,6 @@
-// for loops have 3 stages:
+// for loops & Arrays
+
+//For loops have 3 stages:
 // the variable, the expression & the increment/decrement
 // let i = 1;      i <= 10;             i++
 

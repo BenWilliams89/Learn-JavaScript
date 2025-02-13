@@ -2,22 +2,26 @@
 
 let max = parseInt(prompt('Enter your maximium number'));
 while (!max) {
-    max = parseInt(prompt('Not a number'))
+    max = parseInt(prompt('Not a number, enter a number or "q" to quit the game'))
 }
 
-const targetNum = Math.floor(Math.random() * max) + 1
+const targetNum = Math.floor(Math.random() * max) + 1;
+
+let guess = (prompt('Enter your guess or type "q" to quit'));
 
 let attempts = 1
 
-let guess = parseInt(prompt('Enter your guess'));
-
 while (parseInt(guess) !== targetNum) {
     if (guess === 'q') break;
-    attempts++
+    guess = parseInt(guess);
     if (guess > targetNum) {
-        guess = (prompt(' Too High! Guess a lower number'))
+        guess = prompt(' Too High! Guess a lower number')
+        attempts++
+    } else if (guess < targetNum) {
+        guess = prompt('Too Low, Guess a higher number')
+        attempts++
     } else {
-        guess = (prompt('Too Low, Guess a higher number'))
+        guess = prompt('invalid guess, please enter a number or q to quit')
     }
 }
 console.log(` Correct! You guessed the answer was ${targetNum}`)

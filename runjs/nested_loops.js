@@ -37,3 +37,5 @@
             console.log(row[d])
         }
     }
+
+    

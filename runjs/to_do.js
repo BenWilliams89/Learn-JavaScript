@@ -1,12 +1,13 @@
 // To Do app
 
-let list = []
+let todo = ['chicken']
+let input = prompt('Enter something to your list')
 
-let message = prompt('Add something to the list')
-console.log(`${message} was added to ${list}`)
-
-list = message.push
-console.log(list[listed])
-
-    
-
+while(input !== 'quit' && input !== 'q'){
+    if(input === 'list') {
+        console.log('**********')
+        
+        }
+        console.log('**********')
+    } 
+console.log(' You Quit')

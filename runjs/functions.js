@@ -106,3 +106,27 @@ function isSnakeEyes(die1, die2) {
 
 
 isSnakeEyes(1, 1)
+
+
+
+// *** The return keyword - The output of the function
+// We can capture/store and re-use returns
+
+function addNums(x, y) {
+    console.log(x + y)
+}
+addNums(5, 5)
+let total = addNums(6,5)
+console.log(total)
+// console.logs can't be saved as they return undefined so we use return instead so we can save it as a variable
+
+
+// using the return
+function add(a, b){
+    return a + b
+}
+console.log(add(2,2))
+
+let sum = 4
+console.log(sum)
+

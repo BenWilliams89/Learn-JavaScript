@@ -1,4 +1,4 @@
-// Levelling up our functions
+// Leveling up our functions
 
  
  

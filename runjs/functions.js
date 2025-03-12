@@ -103,14 +103,12 @@ function isSnakeEyes(die1, die2) {
         console.log('Not Snake Eyes')
     }
 }
-
-
 isSnakeEyes(1, 1)
-
 
 
 // *** The return keyword - The output of the function
 // We can capture/store and re-use returns
+// If we want to save the outcome of a function use return
 
 function addNums(x, y) {
     console.log(x + y)
@@ -129,4 +127,22 @@ console.log(add(2,2))
 
 let sum = 4
 console.log(sum)
+
+// Exercise writing a function that returns two numbers with the return statement
+
+function multiply(num1, num2){
+    return num1 * num2
+}
+multiply(2,2)
+
+// Exercise - write a function with a return to decide to wear shorts if temp >= 75
+function isShortsWeather(temperature){
+    if(temperature >= 75){
+        return true
+    }
+    return false
+}
+console.log(isShortsWeather(80))
+console.log(isShortsWeather(48))
+console.log(isShortsWeather(75))
 

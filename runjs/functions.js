@@ -146,3 +146,120 @@ console.log(isShortsWeather(80))
 console.log(isShortsWeather(48))
 console.log(isShortsWeather(75))
 
+
+// Exercise - create a function called last element which accepts a single array as an argument
+// the function should return the last element of the array
+// if the array is empty it should return null
+
+function lastElement(array) {
+    if (array.length === 0) {
+        return null
+    } else {
+        return array[array.length - 1]
+    }
+}
+console.log(lastElement([]))
+
+//  Exercise - create a capitalize function that returns a string with its first letter capitalised
+
+function capitalize(string){
+    return string[0].toUpperCase() + string.slice(1) // string[0] selects the first letter and slice means start at index of 1
+}
+console.log(capitalize('emily'))
+
+// Exercise - Write a function called sumArray which accepts a single argument - an array of numbers
+// it should return the sum of all the numbers in the array
+
+function sumArray(array){
+    let total = 0
+    for (let i = 0; i < array.length; i++) {
+        total += array[i]
+    }
+    return total
+}
+console.log(sumArray([5, 2]))
+
+// An additional way to solve the above
+
+function sumArray(nums) {
+    let total = 0;
+    for (let num of nums) {
+      total += num;
+    }
+    return total;
+  }
+console.log(sumArray([5, 2]))
+
+// Exercise
+
+function returnDay(num) {
+    if (num < 1 || num > 7) {
+        return null
+    } else if (num === 1) {
+        return 'Monday'
+    } else if (num === 2) {
+        return 'Tuesday'
+    } else if (num === 3) {
+        return 'Wednesday'
+    } else if (num === 4) {
+        return 'Thursday'
+    } else if (num === 5) {
+        return 'Friday'
+    } else if (num === 6) {
+        return 'Saturday'
+    } else if (num === 7) {
+        return 'Sunday'
+    } 
+}
+
+console.log(returnDay(1))
+
+// An alternative to the above is:
+
+// A Switch statement
+function returnDay(num) {
+    switch (num) {
+      case 1:
+        return 'Monday';
+      case 2:
+        return 'Tuesday';
+      case 3:
+        return 'Wednesday';
+      case 4:
+        return 'Thursday';
+      case 5:
+        return 'Friday';
+      case 6:
+        return 'Saturday';
+      case 7:
+        return 'Sunday';
+      default:
+        return null;
+    }
+  }
+  console.log(returnDay(2))
+
+  // A better alternative to the above is:
+
+  function returnDay(num) {
+    const days = [null, 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+    if (num < 1 || num > 7) {
+      return null;
+    } else {
+      return days[num];
+    }
+  }
+
+  console.log(returnDay(5))
+
+  // Another good way
+
+  function returnDay(num) {
+    const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+    if (num < 1 || num > 7) {
+      return null;
+    } else {
+      return days[num - 1];
+    }
+  }
+  console.log(returnDay([6]))

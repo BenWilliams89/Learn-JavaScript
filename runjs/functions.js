@@ -64,3 +64,45 @@ function yell(mess) {
     }
 }
 yell('i hate pears')
+
+// Functions accepting multiple arguments
+
+function fullName(firstName, lastName) {
+    console.log(`Hi there ${firstName} is your last name ${lastName}`)
+    console.log(`If so your initals are ${firstName[0]}, ${lastName[0]}`)
+}
+fullName('Ben', 'Williams')
+
+// Function with a string and a number
+
+function repeat(str, numTimes) {
+    for(let i = 0; i < numTimes; i++){
+        console.log('HI')
+    }
+}
+repeat('', 5)
+
+// Function with concatination
+
+function reap(msg, times) {
+    let result = ''
+    for(let i = 0; i < times; i++) {
+        result += msg;
+    }
+    console.log(result)
+}
+reap('£', 5)
+
+// Exercise - Write a function that accepts two number inputs
+// if two 1's print snake eyes otherwise print not snake eyes
+
+function isSnakeEyes(die1, die2) {
+    if (die1 === 1 && die2 === 1){
+        console.log('Snake Eyes!')
+    } else {
+        console.log('Not Snake Eyes')
+    }
+}
+
+
+isSnakeEyes(1, 1)

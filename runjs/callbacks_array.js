@@ -95,3 +95,7 @@ const movies = [
  for(movie of movies){
      console.log(`${movie.title}`)
 }
+
+const movieTitles = movies.map(function(movie){
+    return movie.title
+})

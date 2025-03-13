@@ -33,5 +33,8 @@ greeting('Emily')
 ** When adding in functions start with a total = 0 at the start of a function **
 
 
-** Leveling up our Functions ** - created a new file Scope
+** Leveling up our Functions ** 
+
+- higher order functions can take a function as an argument even if it is outside of the original function
+    - higher functions can run lower functions as well as functions above itself
 

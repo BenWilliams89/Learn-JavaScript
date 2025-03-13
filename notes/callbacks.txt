@@ -7,3 +7,8 @@ Callbacks & Array Methods:
 - Filter
 - Reduce
 
+    - Goals:
+        - Use the arrow functions
+        - Undertsand the above Methods
+
+        

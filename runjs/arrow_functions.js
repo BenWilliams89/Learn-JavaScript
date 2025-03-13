@@ -79,3 +79,20 @@ const flm = films.map(flm => (
     `${flm.score}/100`
 ))
 
+
+
+//
+
+const person = {
+    firstName: 'Ben',
+    lastName: 'Williams',
+    fullName() {
+        return `Hello ${this.firstName} ${this.lastName}`
+    },
+    shoutName(){
+        setTimeout(()=> {
+            console.log(this.fullName())
+        },3000)
+    } 
+}
+console.log(person.fullName());

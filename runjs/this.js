@@ -26,3 +26,20 @@ const meow2 = cat.meow
 meow2() // this doesn't bring the cat. through and prints just says meow
 
 
+// Exercise hen has 3 properties - layAnEgg increases by 1
+
+const hen = {
+    name: 'Helen',
+    eggCount: 0,
+    layAnEgg() {
+        this.eggCount++
+        return 'EGG'
+    }
+}
+console.log(hen.layAnEgg())
+console.log(hen.eggCount)
+hen.layAnEgg()
+console.log(hen.eggCount)
+hen.layAnEgg()
+console.log(hen.eggCount)
+

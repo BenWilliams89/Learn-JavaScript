@@ -34,3 +34,19 @@ const greet = (names) => {
 console.log(greet('Ben'));
  
 // ** Arrow function implicit returns **
+// sometimes we can leave of the return keyword
+// use () instead of {} to tell javaScript i'm only returning one thing
+// can't be used if more then one value
+
+const diceRoll = () => (
+    Math.floor(Math.random() * 10 + 1)
+)
+console.log(diceRoll());
+
+
+// One line function with arrow
+
+const add = (a, b) => a + b // This removes the () and the {} & the return keyword when done on one line
+
+
+

@@ -1,0 +1,9 @@
+Callbacks & Array Methods:
+
+- forEach 
+-  Map 
+- Some & Every
+- Arrow functions
+- Filter
+- Reduce
+

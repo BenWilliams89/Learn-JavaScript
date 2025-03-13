@@ -1,0 +1,99 @@
+// Loops - For loops, Nested loops, While loops, Iterating Arrays, Iterating Objects
+
+- Loops allow us to reapet code
+    - Print Hello 10 times
+    - Sum of all numbers in an array etc
+
+- Types of Loops:
+    - For loops
+    - Nested loops
+    - While loops
+    - Iterating Arrays
+    - Iterating Objects
+
+- For Loop Example:
+    for ( [initialExpression];[condition];[incrementExpression])
+    for (let    i = 1;          i <= 5;           i++)
+
+
+- Infinate Loops:
+    - A loop that doesn't stop
+    - Ensure all loops have a stopping point
+
+
+- Looping for Arrays:
+
+    - const animals = ['lions', 'tigers', 'bears];
+
+    for let i = 0; i < animals.length; i++ {
+        console.log(i, animals[i])
+    }
+
+
+- Nested Loops:
+
+     for (let i = 1; i <= 10; i++){
+        console.log(`i is equal to ${i}`)
+        for (let j = 1; j < 4; j++){
+            console.log(`   j is: ${j}`)
+        }
+        for (let k = 1; k <=2; k++) {
+            console.log(`      k is: ${k}`)
+        }
+    }   
+
+
+- While Loops:
+
+    - let num = 0
+    While (num < 10) {
+        console.log(num)
+        num ++
+    }
+
+
+- For of loops:
+    - An easy way to iterate over arraus
+
+    for (variable of iterable) {
+        statement
+    }
+
+    - let names = ['Ben', 'Emily', 'Sam']
+
+    for(name of names){
+        console.log(name)
+    }
+
+
+- Iterating through objects:
+
+    const testScores = {
+    keenan: 80,
+    damon: 85,
+    ben: 75,
+    emily: 95,
+    jimmy: 77,
+}
+
+for(let person in testScores){
+console.log(`${person} scored: ${testScores[person]}`);
+}
+
+-  add scores
+
+let total = 0
+
+for(let score of Object.values(testScores)){
+    total += score
+    console.log(total);
+}
+
+let total = 0
+
+let scores = Object.values(testScores)
+for(let score of scores) {
+    total += score
+}
+
+console.log(total/scores.length)

@@ -1,0 +1,37 @@
+// Functions
+
+- Reusable code
+ - We define a chunk of code that we can execute at a later point
+ - Functions are used all the time
+
+ - Every method is a Functions
+
+ - Arguemnts are inputs we place in the ()
+
+    - Function Example
+
+    function greet(person) {
+    var person = 'Ben'
+    console.log(`Hi, ${person}!`)
+    
+}
+greet()
+
+- ** Var will only work within the function
+    - Both let & const will not work if I change var to either of these
+
+
+- Here is an alternative to this:
+
+function greeting(name) {
+    console.log(`Hi ${name}`)
+}
+greeting('Emily')
+
+
+
+** When adding in functions start with a total = 0 at the start of a function **
+
+
+** Leveling up our Functions ** - created a new file Scope
+

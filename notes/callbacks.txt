@@ -11,4 +11,4 @@ Callbacks & Array Methods:
         - Use the arrow functions
         - Undertsand the above Methods
 
-        
+        for each is now for(num in numbers) etc

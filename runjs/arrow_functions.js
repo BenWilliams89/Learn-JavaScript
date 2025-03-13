@@ -48,5 +48,34 @@ console.log(diceRoll());
 
 const add = (a, b) => a + b // This removes the () and the {} & the return keyword when done on one line
 
+console.log(add(2,2));
 
+
+// arrows with objects
+
+const films = [
+    {
+        title: 'Shrek',
+        score: 95
+    },
+    {
+        title: 'Toy Story',
+        score: 98
+    },
+    {
+        title: 'Finding Nemo',
+        score: 80
+    }
+]
+
+const film = films.map(function(film){
+    return `${film.score}/100`
+})
+console.log(film)
+
+// With arrow functions this becomes
+
+const flm = films.map(flm => (
+    `${flm.score}/100`
+))
 

@@ -81,3 +81,32 @@ console.log({...dataFromForm}) // this calls and copies the data
 const newUser = {...dataFromForm, id: 2345, isAdmin: false} // this adds existing data 
 console.log(newUser);
 
+
+// Rest -like spread but not as it also uses three dots(...)
+
+function sum(){
+    console.log(arguments)
+}
+sum()
+
+// rest params collects all remaining arguments into an array
+
+function add(...nums){
+    return nums.reduce(function(total, num) {
+        return total + num;
+    });
+}
+console.log(add(23, 22, 55));
+
+// Another example
+
+function race(gold, silver, bronze, ...every){ // ... groups the remaing together
+    console.log(`Gold goes to: ${gold}`)
+    console.log(`Silver goes to: ${silver}`)
+    console.log(`Bronze goes to: ${bronze}`)
+    console.log(`Thanks to: ${every}`) // prints thanks to Mark, Dave, Tom, & Jon
+}
+console.log(race('Ben', 'Emily', 'Dad', 'Mark', 'Dave', 'Tom', ' & Jon'));
+
+ 
+

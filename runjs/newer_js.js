@@ -158,6 +158,59 @@ console.log(sex);
 
 console.log(runner); // prints original runner with all 4 properties
 
+console.log('*****');
+
+// Destructuring Paramaters
+
+const movies = [
+    {
+        title: 'Toy Story',
+        score: 99,
+        year: 2000
+    },
+    {
+        title: 'Nemo',
+        score: 80,
+        year: 2020
+    },
+    {
+        title: 'sharks',
+        score: 25,
+        year: 1999
+    }
+]
+
+
+const films = movies.filter(({score})=> score >= 50)
+console.log(films);
+
+const film = movies.filter(function(movie) {
+    return movie.score >= 81;
+});
+console.log(film);
+
+console.log('*****');
+
+
+const fullName = {
+    first: 'Ben',
+    last: 'Williams'
+};
+
+function printFullName() {
+    console.log(`${fullName.first} ${fullName.last}`);
+}
+
+printFullName(fullName);
+
+// or do this
+
+function printfullName({ first, last }){
+    console.log(`${first}`)
+}
+printfullName(fullName)
+
+
 
 
  

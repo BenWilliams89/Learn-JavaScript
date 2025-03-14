@@ -136,7 +136,27 @@ console.log(silver);
 console.log(meh);
 console.log(last);
 
+console.log('******');
+
 // By using brackets we can assign labels to each index
+
+
+
+// ** Descruting Objects **
+
+const runner = {
+    namme: 'Ben',
+    age: 35,
+    sex: 'Male',
+    weight: '13st'
+}
+
+const {namme, age, sex} = runner
+console.log(namme);
+console.log(age);
+console.log(sex);
+
+console.log(runner); // prints original runner with all 4 properties
 
 
 

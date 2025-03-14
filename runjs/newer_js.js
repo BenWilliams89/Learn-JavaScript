@@ -46,3 +46,38 @@ console.log(allPets);
 const allpets = [... cats, ...dogs]
 console.log(allpets);
 
+
+
+// spread with Objects
+// copies properties from one object into another object 
+
+const feline = {
+    legs: 4,
+    family: 'Felidae'
+}
+
+const canine = {
+    isFurry: true,
+    family: 'Caninae'
+}
+
+console.log({... feline})
+console.log({... feline, color: 'black'})
+
+const catDog = {...feline, ...canine, family: 'Steele'}
+console.log(catDog);
+
+// Used when creating copies of objects
+
+// a user provides this info to your website but you need to add it to the crm with other info
+
+const dataFromForm = {
+    email: 'blueman@gmail.com',
+    password: 'blue123',
+    username: 'bman'
+}
+
+console.log({...dataFromForm}) // this calls and copies the data
+const newUser = {...dataFromForm, id: 2345, isAdmin: false} // this adds existing data 
+console.log(newUser);
+

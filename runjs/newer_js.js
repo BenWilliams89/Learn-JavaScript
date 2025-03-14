@@ -18,4 +18,19 @@ function greet(msg = 'hi', person = 'Dan'){
 greet()
 
 
+// Spread in Function Calls
+// allows iterable like an array to be expanded
+
+console.log(Math.max(12,28,31))
+console.log(Math.min(12,28,31))
+
+const nums = [12, 28, 31]
+console.log(Math.max(nums)) // this returns NaN as Math was expecting multiple arguments and not an array
+
+// Instead we do the same but with ... - this is called spread
+console.log(Math.max(...nums)) // The ... allows the Math to now work
+
+// Same but with a string
+console.log('hello')
+console.log(...'hello')
  

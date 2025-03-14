@@ -82,7 +82,10 @@ const newUser = {...dataFromForm, id: 2345, isAdmin: false} // this adds existin
 console.log(newUser);
 
 
-// Rest -like spread but not as it also uses three dots(...)
+
+
+// ** Rest **
+// -like spread but not as it also uses three dots(...)
 
 function sum(){
     console.log(arguments)
@@ -107,6 +110,35 @@ function race(gold, silver, bronze, ...every){ // ... groups the remaing togethe
     console.log(`Thanks to: ${every}`) // prints thanks to Mark, Dave, Tom, & Jon
 }
 console.log(race('Ben', 'Emily', 'Dad', 'Mark', 'Dave', 'Tom', ' & Jon'));
+
+
+
+// ** Destrucuring Arrays
+// A short, clean syntax to unpack:
+// Values from arrays
+// Properties from Objects into distint variables
+
+// Old way
+
+const scores = [10, 20, 30, 40, 50]
+
+const highScore = scores[4]
+const secondPlace = scores[3]
+console.log(highScore);
+console.log(secondPlace);
+
+console.log('******');
+
+
+const [win, silver, bronze, meh, last] = scores;
+console.log(win);
+console.log(silver);
+console.log(meh);
+console.log(last);
+
+// By using brackets we can assign labels to each index
+
+
 
  
 

@@ -33,4 +33,16 @@ console.log(Math.max(...nums)) // The ... allows the Math to now work
 // Same but with a string
 console.log('hello')
 console.log(...'hello')
- 
+
+
+// Spread in arrays
+
+const cats = ['Blue', 'Scout', 'Rocket']
+const dogs = ['Rusty', 'Wyatt']
+
+const allPets = cats + dogs
+console.log(allPets);
+
+const allpets = [... cats, ...dogs]
+console.log(allpets);
+
